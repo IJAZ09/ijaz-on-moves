@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tag description -->
+    <meta name="Keywords" content="HTML,CSS">
+    <meta name="description" content="Ijaz on move travel blog">
+    <meta name="author" content="Ijaz Ul Haq">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linked external and bootstrap CSS Stylesheet -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    
+    <!-- Added loogo as favicon -->
+    <link rel="shortcut icon" href="images/Imgs.jpg" type="image/x-icon">
+    <title>Contact Us</title>
+</head>
+<body class="body">
+  <!-- added header before on top of navbar -->
+  <div>
+    <header class="hello">
+    <img class="logo" src="images/Imgs.jpg" alt="logo">
+     </header>
+  </div> <br> <br> <br>
+  <!-- Added navbar from bootstrap and link my pages togather -->
+  <nav class="navbar navbar-expand-lg navbar-dark body sticky-top images-hover hover-shadow">
+    <div class="container">
+        <a class="navbar-brand " href="index.html" target="_blank">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="gallery.html" target="_blank">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="destination.html" target="_blank">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link " href="blogpage.html" target="_blank">Blog</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contactus.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav> <br> <br> <br>
+<!-- heading and paragraph after nav bar -->
+ <div class="hello">
+<h1 class="fw-bold text-capitalize">Get in Touch with Ijaz on Move</h1>
+<p>
+    Have questions, feedback, or just want to say hello? Our team is here to help. Feel free to reach out to us using
+    the form below, or through our contact information.We look forward to connecting with you and turning your travel 
+    dreams into unforgettable memories!
+  </p></div> 
+  <br> <br>  <br>
+  <!-- conatiner for form and location  -->
+  <div class="conatiner">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="form">
+                <form action="thankyou.html" method="get">
+                    <input type="text" placeholder="Type your name" required>
+                    <input type="text" placeholder="Enter your email" required class="email">
+                    <input type="date" >
+                    <label for="gender"> Gender:</label>
+                    <select name="gender" id="gender">
+                        <option value="">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <textarea class="form-control" id="feedback" rows="4" placeholder="Enter your feedback" required></textarea>
+                    <button type="submit" class="btn " > Submit Your feedback</button>
+                    
+                </form> 
+            </div>
+            <br> <br>
+            
+        </div> 
+        <!-- our location div  -->
+        <div class="col-12 col-md-6">
+            <div>
+                <h2 style="text-align: center;">Our Location</h2>
+                <p style="text-align: center;"> We are based in London. Find us on following loactions.</p>
+                <p style="text-align: center;">456 Canary Wharf Road, London, E14 5AB</p>
+                <p style="text-align: center;"> <b>Nearby:</b> Opposite Canary Wharf Station, Next to the Food Market  </p>
+                <p style="text-align: center;"> <b>Hours:</b> Mon-Fri, 9 AM - 6 PM; Sat, 10 AM - 4 PM; Closed on Sundays</p>
+                <p style="text-align: center;"> <b>Email:</b> contact@ijazonmove.co.uk</p>
+                <p style="text-align: center;"> <b>Phone:</b> +123 456 7890</p>
+                <h3 style="text-align: center;"> Follow Us</h3>
+                <p style="text-align:center"> You can also connect with us on our socials accounts.</p>
+                <ul style="text-align: center;">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt="Facebook"></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt="Instagram"></a></li>
+                    <li class="list-inline-item"><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><img src="images/icons8-twitter-36.png" alt="Instagram"></a></li>
+                </ul>
+
+            </div>
+        </div>
+        
+    </div>
+  </div>
+  <br> <br>
+  <!-- Used bootrap ccordion for frequently asked questions -->
+   
+  <div class="container py-5">
+    <h1 class="text-center fw-bold mb-4">Frequently Asked Questions - Ijaz on Move</h1>
+    <div class="d-flex justify-content-center">
+      <div class="accordion w-75" id="faqAccordion">
+        <!-- FAQ 1 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              What is Ijaz on Move all about?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              Ijaz on Move is a travel blog dedicated to turning miles into memories. We explore unique destinations, share travel tips, and provide insights to inspire your next adventure.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 2 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              How often do you update the blog with new destinations?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              We aim to update the blog with fresh content at least once a month, featuring exciting travel destinations, tips, and stories.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 3 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq3">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Do you provide itineraries for destinations you visit?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              Yes, for select destinations, we offer itineraries, including attractions, activities, and travel tips.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 4 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq4">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Can I contribute travel stories to your blog?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              Absolutely! We welcome guest stories. Contact us to share your experience.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 5 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq5">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              How do I subscribe to your newsletter?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              Go to our footer on each website page and enter your email in the "Stay Updated" section to subscribe.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 6 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq6">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              Do you provide travel booking services?
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="faq6" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              No, we focus on sharing travel tips and recommendations, not bookings.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 7 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq7">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              What are the featured destinations on your blog?
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="faq7" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              Our blog highlights Morocco, Maldives, USA, and Africa.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 8 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq8">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+              Is your content free to access?
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="faq8" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              Yes, all our travel tips and content are free for everyone.
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 9 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq9">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+              How can I contact you for queries or feedback?
+            </button>
+          </h2>
+          <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="faq9" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              You can reach us via making directly phone call number provided in contact us page or if you have any queries regarding feedback, fill the feedback form on contact us page. 
+            </div>
+          </div>
+        </div>
+  
+        <!-- FAQ 10 -->
+        <div class="accordion-item" style="background-color: rgb(76, 76, 76); color: white; border: none;">
+          <h2 class="accordion-header" id="faq10">
+            <button class="accordion-button collapsed" style="background-color: rgb(76, 76, 76); color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+              Do you collaborate with brands or other bloggers?
+            </button>
+          </h2>
+          <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="faq10" data-bs-parent="#faqAccordion">
+            <div class="accordion-body" style="background-color: rgb(56, 56, 56); color: white;">
+              No, We solely focus on sharing the destinations with our viewers only.
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  
+    
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <!-- For our team use grids in section tag  -->
+      <section class="team ">
+        <div class="container">
+          <h2 style="text-align: center;" class="fw-bold text-capitalize">connect with our team</h2> <hr> <br>
+          <div class="row">
+            <!-- ijaz content creator div in our team section -->
+            <div class="col-12  col-sm-6 col-md-4 profile text-center">
+              <div class="image-box ">
+                <img style="border-radius: 5%;" src="images/ijaz.jpg"  alt="man image" height="350" width="270">
+                <ul>
+                  
+                <li><a href="https://www.facebook.com/" target="_blank"> <img src="images/icons8-facebook-36.png" alt="facebook logo"></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="_blank"> <img src="images/icons8-instagram-36.png" alt="instagram logo"></a></li>
+                <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"> <img src="images/icons8-twitter-36.png" alt="twitter logo"></a></li>
+                </ul>
+              </div>
+              <h2>IJAZ UL HAQ</h2>
+              <h3>FOUNDER / CONTENT CREATOR</h3>
+              <P>"I founded this blog to inspire everyone to explore hidden charm of world"</P>
+            </div>
+            <!-- Ahsan photographer div in our team section -->
+            <div class="col-12 col-sm-6 col-md-4 profile text-center">
+              <div class="image-box">
+                <img style="border-radius: 5%;" src="images/ahsan.jpg"  alt="man image" height="350"  width="270">
+                <ul>
+                <li> <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="_blank"> <img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
+                <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"> <img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+                </ul>
+              </div>
+              <h2>AHSAN</h2>
+              <h3>PHOTOGRAPHER</h3>
+              <P>"Bringing destinations to life, one breathtaking photo at a time"</P>
+            </div>
+            <!-- Tony shah journey planner div in our team section -->
+            <div class="col-12 col-sm-6 col-md-4 profile text-center">
+              <div class="image-box">
+                <img style="border-radius: 5%;" src="images/man.jpg"  alt="image" height="350"  width="270">
+                <ul>
+                <li> <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt=" facebook icon"></a></li>
+                <li> <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
+                <li> <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+                </ul>
+              </div>
+              <h2>TONY SHAH</h2>
+              <h3>JOURNEY PLANNER</h3>
+              <P>"Crafting seamless travel guides for your next adventure"</P>
+            </div>
+            <!-- Mlik sb communit manager div in our team section -->
+            <div class="col-12 col-sm-6 col-md-4 profile text-center">
+              <div class="image-box">
+                <img style="border-radius: 5%;" src="images/OIP.jpg"  alt="man image" height="350"  width="270">
+                <ul>
+                <li> <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
+                <li> <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt="istagram icon"></a></li>
+                <li> <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+                </ul>
+              </div>
+              <h2>MALIK SB</h2>
+              <h3>COMMUNITY MANAGER</h3>
+              <P>"Connecting explorers worldwide with travel inspiration and tips"</P>
+            </div>
+
+          </div>
+        </div>
+      </section> 
+      
+      
+      
+   <!-- footer -->
+  <div class="ijaz">
+    <footer>
+      
+      <hr> 
+      <!-- Added conatiner in footer to make different grids -->
+      <div class="container">
+        <div class="row">
+        <div class="col-12 col-md-6" style="float: left;">
+        <h3 class="fw-bold">Useful links</h3> <br>
+        <ul class="remove-dot ">
+          <li><a href="index.html" target="_blank" style="color: white; border-radius:5%;">HOME</a></li>
+          <li><a href="gallery.html" target="_blank" style="color: white;">GALLERY</a></li>
+          <li><a href="destination.html" target="_blank" style="color: white;">DESTINATIONS</a></li>
+          <li><a href="blogpage.html" target="_blank" style="color: white;">BLOG PAGE</a></li>
+          <li><a href="contactus.html" target="_blank" style="color: white;">CONTACT US</a></li>
+          
+         </ul>
+
+
+    </div>
+    <div class="col-12 col-md-6" style="float: right;"> follow us on our social for latest updates and travel plans <br> <br>
+      <ul class="remove-dot-inline">
+      <li><a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt="facebook icon"></a></li>
+      <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt="instagram icon"></a></li>
+      <li><a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"> <img src="images/icons8-twitter-36.png" alt="twitter icon"></a></li>
+      </ul>
+
+      
+     
+    
+    
+  
+<!-- section for subscribr our new letter -->
+<section>
+  <h3 class="fw-bold">Stay Updated!</h3>
+  <p>Subscribe to receive the latest travel tips and destination updates.</p>
+  <form action="thankyou.html" method="get">
+    <input type="email" placeholder="Enter your email" required class="email">
+    <button type="submit" class="link">Subscribe</button>
+  </form>
+</section> <br></div></div> <hr>
+<p style="text-align: center;">&copy;2024 Ijaz on Move. All Rights Reserved.</p> 
+ </div>
+</footer> 
+
+</div>
+    
+        
+    
+    
+  
+
+  <!-- Attached JavaScript from Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     
+     
+</body>
+</html>
